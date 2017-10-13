@@ -59,7 +59,7 @@ function displayGifs(){
     // Seclect the action of the button being clicked on & establishing the data name attribute
     var action = $(this).attr("data-name");
     // running the query using the website, action variable, API key & count of 10-https://wiki.apache.org/solr/SolrQuerySyntax
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + action + "&api_key=dc6zaTOxFJmzC&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + action + "&api_key=dc6zaTOxFJmzC&limit=10";
     // Console logging out the queryURL
     console.log(queryURL); 
     // running the ajax GET
