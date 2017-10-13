@@ -1,0 +1,23 @@
+{
+  "name": "gif-api",
+  "version": "1.0.0",
+  "description": "gif api",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AZCactus/GIF-API.git"
+  },
+  "keywords": [
+    "gif",
+    "api"
+  ],
+  "author": "travis gallegos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AZCactus/GIF-API/issues"
+  },
+  "homepage": "https://github.com/AZCactus/GIF-API#readme"
+}
